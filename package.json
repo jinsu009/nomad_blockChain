@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "name": "blockchain_tsx",
+  "version": "1.0.0",
+  "main": "intro_03.js",
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "undici-types": "^5.26.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
